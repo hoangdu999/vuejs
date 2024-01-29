@@ -17,4 +17,5 @@ export default{
 }
 </script>
 <style scoped>
+@import url(./assets/css/index.css);
 </style>

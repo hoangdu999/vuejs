@@ -38,13 +38,15 @@ a{
   align-items: center; /* Căn giữa các mục li theo chiều dọc */
 }
 
-.container-top li {
+.container-top  li {
   padding: 5px 10px; 
-  color: white;
-  font-size: 13px;
+  font-size: 14px;
   padding-right: 3px;
   border-right: 1px solid white;
   padding: 0 10px;
+}
+.container-top .list-right-item{
+  color: white;
 }
 .logo-img-link{
   width: 150px;
@@ -97,4 +99,13 @@ a{
 }
 .list-search>ul>li:first-child a{
   padding-left: 0px !important;
+}
+.language-item{
+  padding: 8px 0;
+}
+.language-item.active{
+  color: #e45639;
+}
+.img-icon-item{
+  width: 50%;
 }
